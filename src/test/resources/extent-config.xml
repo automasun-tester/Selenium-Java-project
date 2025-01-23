@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <theme>standard</theme>
+        <encoding>UTF-8</encoding>
+        <documentTitle>SimplifyPI Test Report</documentTitle>
+        <reportName>Automation Test Execution Report</reportName>
+        <timeStampFormat>yyyy-MM-dd HH:mm:ss</timeStampFormat>
+        <theme>dark</theme>
+        <protocol>HTTPS</protocol>
+        <projectName>Selenium Cucumber Automation Project</projectName>
+        <charts>
+            <enable>true</enable>
+            <pieChart>
+                <visible>true</visible>
+            </pieChart>
+        </charts>
+    </configuration>
+</extentreports>
