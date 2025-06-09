@@ -1,0 +1,17 @@
+{
+    "user_profle_img": "//img[@id='imgProfilePicsb']",
+    "menu_retract": "//i[@class='fa fa-bars']",
+    "reload_page": "//span[normalize-space()='SimplifyPI']",
+    "home_tab": "//a[normalize-space()='Home']",
+    "bills_rec_req_tab": "//a[normalize-space()='Bills/Records Requested']",
+    "reduction_req_tab": "//a[normalize-space()='Reduction Requests']",
+    "case_tab_button": "//a[normalize-space()='Cases']",
+    "task_tab_buttons": "//a[normalize-space()='Tasks']",
+    "office_tab_button": "//a[normalize-space()='Offices']",
+    "scheduler_tab": "//a[@href='/schedule']",
+    "top_right_profile_dd": "//a[@id='idProfileuser']",
+    "profile_link": "//a[@data-test-id='profile']",
+    "setting_link": "//a[@data-test-id='settings']",
+    "users_link": "//a[normalize-space()='Users']",
+    "logout_link": "//a[@onclick='App.logout()']"
+}

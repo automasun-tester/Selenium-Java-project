@@ -1,0 +1,16 @@
+{
+    "scheduler_at_10_30": "//tr[@data-time='10:30:00']//td[2]",
+    "scheduler_at_10_30_rightclick": "//tr[@data-time='10:30:00']//td[2]/ancestor::tr//a",
+    "new_appt_case_name": "//input[@id='caseNameCreateInput']",
+    "new_appt_case_name_dd": "//body/ul/li[1]",
+    "new_appt_textarea": "//div[@id='appointmentCreateModal']//div//div//div//form//div//div//textarea[@id='notes']",
+    "new_appt_submit": "//button[@ng-click='$ctrl.saveNewAppointment($event)']",
+    "appt_edit_option": "//div[@class='ui-context-menu ng-scope']//li[6]",
+    "appt_edit_textarea": "//div[@id='appointmentEditModal']//textarea[@id='notes']",
+    "appt_edit_submit": "//button[@ng-click='$ctrl.saveEditAppointment()']",
+    "appt_delete_option": "//li[@ng-click='$ctrl.handleFactory.showDeleteAppoitmentModal($ctrl)']",
+    "appt_delete_button": "//button[normalize-space()='Delete']",
+    "provider_checkedbox":"//div[@class='icheck-box icheck-box-display-schedule']//div[@class='icheckbox_flat-green checked']",
+    "provider_uncheckedbox":"//div[@class='icheck-box icheck-box-display-schedule']//div[@class='icheckbox_flat-green']",
+    "provider_dropdown":"//button[normalize-space()='Providers']"
+}

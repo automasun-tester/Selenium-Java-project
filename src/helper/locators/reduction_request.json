@@ -1,0 +1,21 @@
+{
+    "waiting_for_response_tile": "//h3[normalize-space()='Waiting on a Response']",
+    "waiting_for_response_tile_count": "//div[@id='tile-response-waiting']//div[@class='count handle-click-tile']//a",
+    "waiting_for_response_case_count": "//span[@id='ag-47-row-count']",
+    "waiting_for_response_search": "//input[@id='externalFilter']",
+    "waiting_for_response_casename": "//div[@row-index='0']//div[@col-id='caseName']//a",
+    "waiting_for_response_offeramount": "//div[@row-index='0']//div[@col-id='offeredAmount']",
+    "waiting_for_response_facility": "//div[@row-index='0']//div[@col-id='facility']//a",
+    "needs_response_tile": "//h3[normalize-space()='Needs Response']",
+    "needs_response_tile_count": "//div[@id='tile-response-needed']//div[@class='count handle-click-tile']//a",
+    "needs_response_case_count": "//span[@id='ag-47-row-count']",
+    "needs_response_search": "//input[@id='externalFilter']",
+    "needs_response_casename": "//div[@row-index='0']//div[@col-id='caseName']//a",
+    "needs_response_offeramount": "//div[@row-index='0']//div[@col-id='offeredAmount']",
+    "needs_response_referred_attorney": "//div[@row-index='0']//div[@col-id='attorney']//a",
+    "date_range":"//div[@id='dateRangeOpenCases']",
+    "all_case_filter":"//li[@data-range-key='All Cases']",
+    "waiting_for_response_pagination":"//span[@id='ag-47-row-count']",
+    "needs_response_pagination":"//span[@id='ag-47-row-count']"
+
+}

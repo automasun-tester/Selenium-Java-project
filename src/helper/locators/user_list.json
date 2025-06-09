@@ -1,0 +1,19 @@
+{
+    "create_user_button": "//a[normalize-space()='Create User']",
+    "active_user_search": "//input[@aria-controls='userList']",
+    "active_user_list": "//table[@id=\"userList\"]",
+    "first_active_user_edit": "//table[@id='userList']//tr[1]//td[7]//a",
+    "active_user_entry": "//select[@name='userList_length']",
+    "active_user_next": "//a[@aria-controls='userList'][normalize-space()='Next']",
+    "active_user_previous": "//a[@aria-controls='userList'][normalize-space()='Previous']",
+    "first_active_user": "//table[@id=\"userList\"]//tr[1]//td[1]//a",
+    "first_active_user_email": "//table[@id=\"userList\"]//tr[1]//td[2]",
+    "first_active_row": "//table[@id=\"userList\"]//tr[1]//td//a",
+    "active_UserList_info": "//div[@id='userList_info']",
+    "inactive_list_button": "//a[@id='headingOne']",
+    "inactive_user_search": "//input[@aria-controls='inactiveUserList']",
+    "first_inactive_user": "//table[@id='inactiveUserList']//tr[1]//td[1]//a",
+    "first_inactive_user_email": "//table[@id='inactiveUserList']//tr[1]//td[2]",
+    "first_inactive_user_edit": "//table[@id='inactiveUserList']//tr[1]//td[8]//a",
+    "first_inactive_row": "//table[@id='inactiveUserList']//tr[1]//td//a"
+}

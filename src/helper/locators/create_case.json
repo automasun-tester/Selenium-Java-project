@@ -1,0 +1,22 @@
+{
+    "fname": "//input[@id='firstName']",
+    "mname": "//input[@id='middleName']",
+    "lname": "//input[@id='lastName']",
+    "radio_male": "//label[normalize-space()='Male']",
+    "radio_female": "//label[normalize-space()='Female']",
+    "SSN_input": "//input[@id='socialSecurity']",
+    "DOB_input": "//input[@id='single_cal']",
+    "DOI_input": "//input[@id='myDatepicker']",
+    "health_speciality":"//select[@id='specialty']",
+    "emp_occupation": "//input[@id='employement-information-occupation']",
+    "duplicate_case_SSN_popup_no": "//button[@id=\"btnNoSSNDuplicatePatient\"]",
+    "duplicate_case_popup_yes": "//button[@id='btnYesDOBDOICHeck']",
+    "duplicate_case_popup_cancel": "//button[@id='btnNoDOBDOICHeck']",
+    "state_xpath": "//select[@id='state']",
+    "group_office": "//select[@id='groupOfficeId']",
+    "delete_case": "//button[@id='deleteBtn']",
+    "delete_confirmation": "//button[@id='deleteYesBtn']",
+    "delete_case_pg": "//button[@id='deleteBtnGroupAdmin']",
+    "submit_xpath": "//button[@id='btncasesubmit']",
+    "edit_confirmation":"//button[@id='yesCannotEditBI']"
+}

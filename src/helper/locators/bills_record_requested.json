@@ -1,0 +1,8 @@
+{
+    "br_search": "//input[@type='search']",
+    "br_case_name": "//table[@id='idTable']//tbody//tr[1]//td[1]//a",
+    "br_number_0f_rows":"//table[@id='idTable']//tbody//tr//td[1]//a",
+    "br_table_header":"//table[@id='idTable']//thead//tr//th",
+    "br_request_count":"//table[@id='idTable']//tbody//tr[1]",
+    "br_request_count_duplicate_check":"//table[@id='idTable']//tbody//tr"
+}
