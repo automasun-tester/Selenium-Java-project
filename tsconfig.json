@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "es2021","ESNext", "DOM"    
+        ],
+        "typeRoots": [
+            "./node_modules/@types",
+            "src/helper/types"
+        ],
+        "types": ["node"],
+        "module": "CommonJS", 
+    "esModuleInterop": true,
+        "resolveJsonModule": true
+    }
+}   

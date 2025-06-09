@@ -1,0 +1,1465 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "reduction-request-scenarios;ui-test-for-reduction-request...-table-visibility-by-provider",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "UI test for Reduction Request... table visibility by provider",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 524185199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 7,
+            "name": "login as provider and password",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4492403787
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 8,
+            "name": "go to reduction request tab",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3969144090
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 9,
+            "name": "check the visibiliy of the table data for waiting on response",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9710419092
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 10,
+            "name": "check the visibiliy of the table data for needs response",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:142"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6170182793
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 11,
+            "name": "logout",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2960626594
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1248152000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI_test",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "reduction-request-scenarios;ui-test-for-reduction-request...-table-visibility-by-attorney",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "UI test for Reduction Request... table visibility by attorney",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 139693500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 15,
+            "name": "login as attorney and password",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1686029990
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 16,
+            "name": "go to reduction request tab",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3218150992
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 17,
+            "name": "check the visibiliy of the table data for waiting on response",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13631057695
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 18,
+            "name": "check the visibiliy of the table data for needs response",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:142"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5485443692
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 19,
+            "name": "logout",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3005171792
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1241476099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI_test",
+            "line": 13
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "reduction-request-scenarios;creating-a-case-to-perform-reduction-request-from-provider",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Creating a case to perform Reduction Request from provider",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 127583700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 25,
+            "name": "login as provider and password",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1719005392
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 26,
+            "name": "go to case create page",
+            "match": {
+              "location": "src\\test\\steps\\CaseListSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7095685494
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 27,
+            "name": "fill the case create form and submit",
+            "match": {
+              "location": "src\\test\\steps\\CreateCaseSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12528140193
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 28,
+            "name": "logout",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4643092796
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1275598599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "reduction-request-scenarios;referring-attorney-to-the-case-created-and-making-a-offer",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Referring attorney to the case created and making a offer",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 148036399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 31,
+            "name": "login as provider and password",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1641084593
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 32,
+            "name": "search for test case",
+            "match": {
+              "location": "src\\test\\steps\\CaseListSteps.ts:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9542156495
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 33,
+            "name": "open the case detail page for the searched case",
+            "match": {
+              "location": "src\\test\\steps\\CaseListSteps.ts:94"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 639323492
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 34,
+            "name": "refer the case to a attorney",
+            "match": {
+              "location": "src\\test\\steps\\CaseDetailsSteps.ts:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13581826592
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 35,
+            "name": "go to finance tab",
+            "match": {
+              "location": "src\\test\\steps\\CaseDetailsSteps.ts:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 883763789
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 36,
+            "name": "click to the make offer",
+            "match": {
+              "location": "src\\test\\steps\\CaseDetailsSteps.ts:94"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1062818088
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 37,
+            "name": "make an offer from provider",
+            "match": {
+              "location": "src\\test\\steps\\CaseDetailsSteps.ts:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2559886089
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 38,
+            "name": "go to reduction request tab",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1336720393
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 39,
+            "name": "validate needs response provider",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6234654991
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 40,
+            "name": "logout",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3005635793
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2826931299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "reduction-request-scenarios;checking-and-making-a-counter-offer-from-attorney",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Checking and making a counter offer from attorney",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 161462200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 43,
+            "name": "login as attorney and password",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1614327793
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 44,
+            "name": "go to reduction request tab",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3275462791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 45,
+            "name": "check case in waiting for response from attorney",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7752813594
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 46,
+            "name": "open the offer case",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:94"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 689931687
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 47,
+            "name": "go to finance tab",
+            "match": {
+              "location": "src\\test\\steps\\CaseDetailsSteps.ts:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7691368793
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 48,
+            "name": "go to provider settlement",
+            "match": {
+              "location": "src\\test\\steps\\CaseDetailsSteps.ts:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 476015893
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 49,
+            "name": "make a counter offer from attorney",
+            "match": {
+              "location": "src\\test\\steps\\CaseDetailsSteps.ts:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2502951990
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 50,
+            "name": "go to reduction request tab",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1690095695
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 51,
+            "name": "validate needs response attorney",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6806488492
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 52,
+            "name": "logout",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3027193192
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2048201600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "reduction-request-scenarios;accepting-the-offer-by-provider",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "Accepting the offer by provider",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 133192599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 55,
+            "name": "login as provider and password",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1695666390
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 56,
+            "name": "go to reduction request tab",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3730054290
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 57,
+            "name": "check case in waiting for response from provider",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8487340593
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 58,
+            "name": "open the offer case",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:94"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 687895992
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 59,
+            "name": "go to finance tab",
+            "match": {
+              "location": "src\\test\\steps\\CaseDetailsSteps.ts:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8681795792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 60,
+            "name": "go to provider settlement",
+            "match": {
+              "location": "src\\test\\steps\\CaseDetailsSteps.ts:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 541953895
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 61,
+            "name": "accept the counter offer",
+            "match": {
+              "location": "src\\test\\steps\\CaseDetailsSteps.ts:142"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1830230492
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 62,
+            "name": "logout",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3989626394
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1369095399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "reduction-request-scenarios;deleting-the-cases-created-for-reduction-request-by-the-provider",
+        "keyword": "Scenario",
+        "line": 64,
+        "name": "Deleting the cases created for Reduction Request by the provider",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 139924700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 65,
+            "name": "login as provider and password",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1622971791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 66,
+            "name": "search for test case",
+            "match": {
+              "location": "src\\test\\steps\\CaseListSteps.ts:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11086083396
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 67,
+            "name": "open the case detail page for the searched case",
+            "match": {
+              "location": "src\\test\\steps\\CaseListSteps.ts:94"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 596714695
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 68,
+            "name": "click on case edit button",
+            "match": {
+              "location": "src\\test\\steps\\CaseDetailsSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8227551088
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 69,
+            "name": "delete the test case",
+            "match": {
+              "location": "src\\test\\steps\\EditCaseSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6731988792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 70,
+            "name": "logout",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3733433290
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1585716300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "reduction-request-scenarios;creating-a-case-to-perform-reduction-request-from-attorney",
+        "keyword": "Scenario",
+        "line": 73,
+        "name": "Creating a case to perform Reduction Request from attorney",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 139771399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 74,
+            "name": "login as attorney and password",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1657357588
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 75,
+            "name": "go to case create page",
+            "match": {
+              "location": "src\\test\\steps\\CaseListSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5819460789
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 76,
+            "name": "fill the case create form and submit",
+            "match": {
+              "location": "src\\test\\steps\\CreateCaseSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9724366391
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 77,
+            "name": "logout",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4624353490
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1293907700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "reduction-request-scenarios;referring-provider-to-the-case-created-and-making-a-offer",
+        "keyword": "Scenario",
+        "line": 79,
+        "name": "Referring provider to the case created and making a offer",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 173681400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 80,
+            "name": "login as attorney and password",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1780889192
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 81,
+            "name": "search for test case",
+            "match": {
+              "location": "src\\test\\steps\\CaseListSteps.ts:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10211382494
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 82,
+            "name": "open the case detail page for the searched case",
+            "match": {
+              "location": "src\\test\\steps\\CaseListSteps.ts:94"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 597932894
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 83,
+            "name": "refer the case to a provider",
+            "match": {
+              "location": "src\\test\\steps\\CaseDetailsSteps.ts:154"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11625150390
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 84,
+            "name": "go to finance tab",
+            "match": {
+              "location": "src\\test\\steps\\CaseDetailsSteps.ts:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1795119391
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 85,
+            "name": "click to the make offer",
+            "match": {
+              "location": "src\\test\\steps\\CaseDetailsSteps.ts:94"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1214081691
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 86,
+            "name": "make an offer from attorney",
+            "match": {
+              "location": "src\\test\\steps\\CaseDetailsSteps.ts:166"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2602089593
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 87,
+            "name": "go to reduction request tab",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1277911590
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 88,
+            "name": "check case in waiting for response from attorney",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8342777188
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 89,
+            "name": "logout",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3164256790
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2197943700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "reduction-request-scenarios;checking-and-making-a-counter-offer-from-provider",
+        "keyword": "Scenario",
+        "line": 91,
+        "name": "Checking and making a counter offer from provider",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 156649200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 92,
+            "name": "login as provider and password",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1747985492
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 93,
+            "name": "go to reduction request tab",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3607235491
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 94,
+            "name": "validate needs response provider",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11306185592
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 95,
+            "name": "open the offer case",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:94"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 671309491
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 96,
+            "name": "go to finance tab",
+            "match": {
+              "location": "src\\test\\steps\\CaseDetailsSteps.ts:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8578457191
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 97,
+            "name": "go to provider settlement",
+            "match": {
+              "location": "src\\test\\steps\\CaseDetailsSteps.ts:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 558494088
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 98,
+            "name": "make a counter offer from provider",
+            "match": {
+              "location": "src\\test\\steps\\CaseDetailsSteps.ts:178"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2414010392
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 99,
+            "name": "go to reduction request tab",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1621391588
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 100,
+            "name": "check case in waiting for response from provider",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8342487695
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 101,
+            "name": "logout",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2946296491
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2334294600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "reduction-request-scenarios;accepting-the-offer-by-attorney",
+        "keyword": "Scenario",
+        "line": 103,
+        "name": "Accepting the offer by attorney",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 169721399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 104,
+            "name": "login as attorney and password",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1754556992
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 105,
+            "name": "go to reduction request tab",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3103593294
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 106,
+            "name": "validate needs response attorney",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9113729892
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 107,
+            "name": "open the offer case",
+            "match": {
+              "location": "src\\test\\steps\\ReductionRequestSteps.ts:94"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 655644394
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 108,
+            "name": "go to finance tab",
+            "match": {
+              "location": "src\\test\\steps\\CaseDetailsSteps.ts:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8292862793
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 109,
+            "name": "go to provider settlement",
+            "match": {
+              "location": "src\\test\\steps\\CaseDetailsSteps.ts:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 551364596
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 110,
+            "name": "accept the counter offer",
+            "match": {
+              "location": "src\\test\\steps\\CaseDetailsSteps.ts:142"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1423645693
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 111,
+            "name": "logout",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3304971891
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 754581399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "reduction-request-scenarios;deleting-the-cases-created-for-reduction-request-by-the-attorney",
+        "keyword": "Scenario",
+        "line": 113,
+        "name": "Deleting the cases created for Reduction Request by the attorney",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 121097100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 114,
+            "name": "login as provider and password",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1698496594
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 115,
+            "name": "search for test case",
+            "match": {
+              "location": "src\\test\\steps\\CaseListSteps.ts:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11388486489
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 116,
+            "name": "open the case detail page for the searched case",
+            "match": {
+              "location": "src\\test\\steps\\CaseListSteps.ts:94"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 626743088
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 117,
+            "name": "click on case edit button",
+            "match": {
+              "location": "src\\test\\steps\\CaseDetailsSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9270695193
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 118,
+            "name": "delete the test case",
+            "match": {
+              "location": "src\\test\\steps\\EditCaseSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7873884893
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 119,
+            "name": "logout",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4263597889
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1599578800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "reduction-request-scenarios",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Reduction Request Scenarios",
+    "tags": [],
+    "uri": "src\\test\\features\\Reduction_Request.feature"
+  }
+]
